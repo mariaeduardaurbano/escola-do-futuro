@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+}
+
+header{
+    background: #b41313;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1{
+    margin-bottom: 0.3rem;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover{
+    color: #eb5d5d;
+    cursor: pointer;
+}
+
+section{
+    padding: 2rem;
+    margin: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow:0 4px 8px #ee4b4b(0,0,0,0.1);
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+.log-in{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.login-informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-informacoes h2{
+    margin-bottom: 0.5rem;
+}
+.login-informacoes p{
+    font-size: 1rem;
+    color: #a52626;
+}
+
+.cards{
+    display: flex;
+    gap: 1rem;
+}
+.card{
+    background: radial-gradient(circle, rgba(212, 101, 101, 0.9) 0%, rgb(203, 79, 79) 50%, rgb(153, 37, 37) 100%);
+    border-radius: 8px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(178, 29, 29, 0.666);
+    transition: 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(148, 20, 20, 0.666);
+}
+
+.hobby i{
+    font-size: 2rem;
+    color: #aa386c;
+}
+
+fieldset {
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+fieldset p {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+fieldset p input {
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+fieldset p button {
+    background: #eb5d5d;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
